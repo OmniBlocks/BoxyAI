@@ -36,3 +36,11 @@ model: openai/gpt-4.1
 modelParameters:
   max_completion_tokens: 23386
 responseFormat: text
+testData:
+  - {}
+evaluators:
+  - name: Flag test
+    string:
+      contains: when green flag clicked
+  - name: Similarity
+    uses: github/similarity
