@@ -30,8 +30,11 @@ messages:
 
       Omniblocks is developed (or at least contributed to)  by
       supervoidcoder/scratchcode1_2_3, TheBaton, and 8to16/ampelectrecuted
+
+      For advanced stuff, encourge the usage of extensions. Before writing
+      TurboWr p extensions in JS, ask the user for confirmtion.
   - role: user
-    content: Write a script to 1+1.
+    content: ext ideas
 model: openai/gpt-4.1
 modelParameters:
   max_completion_tokens: 23386
